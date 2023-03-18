@@ -11,4 +11,12 @@
 
     <artifactId>hourly-tips</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>common</artifactId>
+            <version>1.16-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
 </project>

@@ -10,5 +10,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>rides-and-fares</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>common</artifactId>
+            <version>1.16-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 </project>

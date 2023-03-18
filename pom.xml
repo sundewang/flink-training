@@ -65,32 +65,29 @@ under the License.
 			<scope>provided</scope>
 		</dependency>
 
+		<!-- allows using Flink's web UI when running in the IDE -->
+		<dependency>
+			<groupId>org.apache.flink</groupId>
+			<artifactId>flink-runtime-web</artifactId>
+			<version>${flink.version}</version>
+		</dependency>
+
 		<!-- Add logging framework, to produce console output when running in the IDE. -->
 		<!-- These dependencies are excluded from the application JAR by default. -->
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-slf4j-impl</artifactId>
 			<version>${log4j.version}</version>
-			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-api</artifactId>
 			<version>${log4j.version}</version>
-			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-core</artifactId>
 			<version>${log4j.version}</version>
-			<scope>runtime</scope>
-		</dependency>
-
-		<!-- allows using Flink's web UI when running in the IDE -->
-		<dependency>
-		    <groupId>org.apache.flink</groupId>
-			<artifactId>flink-runtime-web</artifactId>
-			<version>${flink.version}</version>
 		</dependency>
 
 		<dependency>
@@ -99,7 +96,6 @@ under the License.
 			<version>4.13.2</version>
 			<scope>test</scope>
 		</dependency>
-
 		<dependency>
 			<groupId>org.assertj</groupId>
 			<artifactId>assertj-core</artifactId>
@@ -108,8 +104,16 @@ under the License.
 		</dependency>
 		<dependency>
 			<groupId>org.apache.flink</groupId>
+			<artifactId>flink-streaming-java</artifactId>
+			<version>${flink.version}</version>
+			<scope>test</scope>
+			<classifier>tests</classifier>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.flink</groupId>
 			<artifactId>flink-test-utils</artifactId>
 			<version>${flink.version}</version>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
