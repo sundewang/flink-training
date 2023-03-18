@@ -89,8 +89,8 @@ Flink's DataStream API features a `DataStream.filter(FilterFunction)` transforma
 
 Reference solutions are available in this project:
 
-- Java:  [`org.apache.flink.training.solutions.ridecleansing.RideCleansingSolution`](src/solution/java/org/apache/flink/training/solutions/ridecleansing/RideCleansingSolution.java)
-- Scala: [`org.apache.flink.training.solutions.ridecleansing.scala.RideCleansingSolution`](src/solution/scala/org/apache/flink/training/solutions/ridecleansing/scala/RideCleansingSolution.scala)
+- Java:  [`org.apache.flink.training.solutions.ridecleansing.RideCleansingSolution`](src/main/java/org/apache/flink/training/solutions/ridecleansing/RideCleansingSolution.java)
+- Scala: [`org.apache.flink.training.solutions.ridecleansing.scala.RideCleansingSolution`](src/main/scala/org/apache/flink/training/solutions/ridecleansing/scala/RideCleansingSolution.scala)
 
 -----
 

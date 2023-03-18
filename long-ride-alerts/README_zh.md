@@ -83,8 +83,8 @@ END 事件可能会丢失，但你可以假设没有重复的事件，也没有�
 
 项目中提供了参考解决方案：
 
-- Java API:  [`org.apache.flink.training.solutions.longrides.LongRidesSolution`](src/solution/java/org/apache/flink/training/solutions/longrides/LongRidesSolution.java)
-- Scala API: [`org.apache.flink.training.solutions.longrides.scala.LongRidesSolution`](src/solution/scala/org/apache/flink/training/solutions/longrides/scala/LongRidesSolution.scala)
+- Java API:  [`org.apache.flink.training.solutions.longrides.LongRidesSolution`](src/main/java/org/apache/flink/training/solutions/longrides/LongRidesSolution.java)
+- Scala API: [`org.apache.flink.training.solutions.longrides.scala.LongRidesSolution`](src/main/scala/org/apache/flink/training/solutions/longrides/scala/LongRidesSolution.scala)
 
 -----
 

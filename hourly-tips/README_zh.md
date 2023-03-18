@@ -72,8 +72,8 @@ under the License.
 
 项目中提供了参考解决方案：
 
-- Java:  [`org.apache.flink.training.solutions.hourlytips.HourlyTipsSolution`](src/solution/java/org/apache/flink/training/solutions/hourlytips/HourlyTipsSolution.java)
-- Scala: [`org.apache.flink.training.solutions.hourlytips.scala.HourlyTipsSolution`](src/solution/scala/org/apache/flink/training/solutions/hourlytips/scala/HourlyTipsSolution.scala)
+- Java:  [`org.apache.flink.training.solutions.hourlytips.HourlyTipsSolution`](src/main/java/org/apache/flink/training/solutions/hourlytips/HourlyTipsSolution.java)
+- Scala: [`org.apache.flink.training.solutions.hourlytips.scala.HourlyTipsSolution`](src/main/scala/org/apache/flink/training/solutions/hourlytips/scala/HourlyTipsSolution.scala)
 
 -----
 

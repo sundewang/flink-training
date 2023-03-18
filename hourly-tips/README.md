@@ -68,8 +68,8 @@ Note that it is possible to cascade one set of time windows after another, so lo
 
 Reference solutions are available at GitHub:
 
-- Java:  [`org.apache.flink.training.solutions.hourlytips.HourlyTipsSolution`](src/solution/java/org/apache/flink/training/solutions/hourlytips/HourlyTipsSolution.java)
-- Scala: [`org.apache.flink.training.solutions.hourlytips.scala.HourlyTipsSolution`](src/solution/scala/org/apache/flink/training/solutions/hourlytips/scala/HourlyTipsSolution.scala)
+- Java:  [`org.apache.flink.training.solutions.hourlytips.HourlyTipsSolution`](src/main/java/org/apache/flink/training/solutions/hourlytips/HourlyTipsSolution.java)
+- Scala: [`org.apache.flink.training.solutions.hourlytips.scala.HourlyTipsSolution`](src/main/scala/org/apache/flink/training/solutions/hourlytips/scala/HourlyTipsSolution.scala)
 
 -----
 

@@ -23,7 +23,7 @@ under the License.
 
 (Discussion of [Lab: Windowed Analytics (Hourly Tips)](./))
 
-The Java and Scala reference solutions illustrate two different approaches, though they have a lot of similarities. Both first compute the sum of the tips for every hour for each driver. In [`HourlyTipsSolution.java`](src/solution/java/org/apache/flink/training/solutions/hourlytips/HourlyTipsSolution.java) that looks like this,
+The Java and Scala reference solutions illustrate two different approaches, though they have a lot of similarities. Both first compute the sum of the tips for every hour for each driver. In [`HourlyTipsSolution.java`](src/main/java/org/apache/flink/training/solutions/hourlytips/HourlyTipsSolution.java) that looks like this,
 
 ```java
 DataStream<Tuple3<Long, Long, Float>> hourlyTips = fares
@@ -50,7 +50,7 @@ public static class AddTips extends ProcessWindowFunction<
 
 This is straightforward, but has the drawback that it is buffering all of the `TaxiFare` objects in the windows until the windows are triggered, which is less efficient than computing the sum of the tips incrementally, using a `reduce` or `agggregate` function.
 
-The [Scala solution](src/solution/scala/org/apache/flink/training/solutions/hourlytips/scala/HourlyTipsSolution.scala) uses a `reduce` function
+The [Scala solution](src/main/scala/org/apache/flink/training/solutions/hourlytips/scala/HourlyTipsSolution.scala) uses a `reduce` function
 
 ```scala
 val hourlyTips = fares

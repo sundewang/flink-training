@@ -89,8 +89,8 @@ Read the [discussion of the reference solutions](DISCUSSION.md).
 
 Reference solutions:
 
-- Java API:  [`org.apache.flink.training.solutions.longrides.LongRidesSolution`](src/solution/java/org/apache/flink/training/solutions/longrides/LongRidesSolution.java)
-- Scala API: [`org.apache.flink.training.solutions.longrides.scala.LongRidesSolution`](src/solution/scala/org/apache/flink/training/solutions/longrides/scala/LongRidesSolution.scala)
+- Java API:  [`org.apache.flink.training.solutions.longrides.LongRidesSolution`](src/main/java/org/apache/flink/training/solutions/longrides/LongRidesSolution.java)
+- Scala API: [`org.apache.flink.training.solutions.longrides.scala.LongRidesSolution`](src/main/scala/org/apache/flink/training/solutions/longrides/scala/LongRidesSolution.scala)
 
 -----
 

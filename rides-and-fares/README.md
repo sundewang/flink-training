@@ -85,8 +85,8 @@ For the purposes of this exercise it's okay to assume that the START and fare ev
 
 Reference solutions are available in this project:
 
-- Java:  [`org.apache.flink.training.solutions.ridesandfares.RidesAndFaresSolution`](src/solution/java/org/apache/flink/training/solutions/ridesandfares/RidesAndFaresSolution.java)
-- Scala: [`org.apache.flink.training.solutions.ridesandfares.scala.RidesAndFaresSolution`](src/solution/scala/org/apache/flink/training/solutions/ridesandfares/scala/RidesAndFaresSolution.scala)
+- Java:  [`org.apache.flink.training.solutions.ridesandfares.RidesAndFaresSolution`](src/main/java/org/apache/flink/training/solutions/ridesandfares/RidesAndFaresSolution.java)
+- Scala: [`org.apache.flink.training.solutions.ridesandfares.scala.RidesAndFaresSolution`](src/main/scala/org/apache/flink/training/solutions/ridesandfares/scala/RidesAndFaresSolution.scala)
 
 -----
 

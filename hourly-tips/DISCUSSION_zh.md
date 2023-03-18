@@ -23,7 +23,7 @@ under the License.
 
 尽管有很多相似之处，Java 和 Scala 参考解决方案展示了两种不同的方法.
 两者首先都计算每个司机每小时的小费总和。
-[`HourlyTipsSolution.java`](src/solution/java/org/apache/flink/training/solutions/hourlytips/HourlyTipsSolution.java) 看起来像这样，
+[`HourlyTipsSolution.java`](src/main/java/org/apache/flink/training/solutions/hourlytips/HourlyTipsSolution.java) 看起来像这样，
 
 ```java
 DataStream<Tuple3<Long, Long, Float>> hourlyTips = fares
@@ -51,7 +51,7 @@ public static class AddTips extends ProcessWindowFunction<
 这很简单，但缺点是它会缓冲窗口中所有的 `TaxiFare` 对象，直到窗口被触发。
 相比使用 `reduce` 或 `aggregate` 方法来增量计算小费总额，这种方法的效率较低。
 
-[Scala 解决方案](src/solution/scala/org/apache/flink/training/solutions/hourlytips/scala/HourlyTipsSolution.scala)使用了 `reduce` 函数：
+[Scala 解决方案](src/main/scala/org/apache/flink/training/solutions/hourlytips/scala/HourlyTipsSolution.scala)使用了 `reduce` 函数：
 
 ```scala
 val hourlyTips = fares
